@@ -37,7 +37,7 @@ public class SeleniumpocApplication {
 				break;
 			}
 		}
-
+		
 		System.out.println(driver.getCurrentUrl());
 
 		List<WebElement> products = driver.findElements(By.className("cPHDOP col-6-12"));
